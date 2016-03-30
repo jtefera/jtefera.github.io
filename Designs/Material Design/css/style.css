@@ -1,0 +1,64 @@
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#myApp {
+	width:300px;
+	height: 533px;
+	text-align: center;
+	margin: 50px auto;
+	background-image: url("../img/loginBkg.jpg");
+	border-radius: 5px;
+	padding-top: 80px; 
+}
+
+#welcome {
+	margin: 0px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color: white;
+}
+#welcome span{
+	color: #66ccff;
+}
+
+#profileImg {
+	height: 90px;
+	margin: 20px 0 65px;
+}
+
+#loginForm input, #loginForm .input-group-addon {
+	border: 0px;
+	background: none;
+	color:white;
+	font-size: 10px;
+}
+
+#loginForm input{
+	float: left;
+    position: relative;
+    top: 5px;
+}
+#loginForm .input-group{
+	border-bottom: 2px solid #8a7fac;
+    border-radius: 0;
+    width: 230px;
+    margin:0 auto 20px;
+}
+
+.loginBtn {
+	margin-top: 15px;
+	width:230px;
+	border-radius: 1px;
+	height: 47px;
+	background-color: #4bc2ff!important;
+	background-image: none;
+	color: white;
+}
+#newAccountUrl {
+	margin-top: 25px;
+	color: white;
+	display: inline-block;
+}
